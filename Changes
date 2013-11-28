@@ -1,5 +1,13 @@
 Revision history for Perl extension Win32::Console
 
+0.10 2013-11-28
+
+- Fix required perl version 5.6 -> 5.006.
+
+- Add Github repo link to META.yml 
+
+- Typo fixes by David Steinbrunner. 
+
 0.09 2008-06-13
 
 - Move sample.pl to eg/sample.pl so that it doesn't get installed.

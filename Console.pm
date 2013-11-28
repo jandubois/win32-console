@@ -9,7 +9,7 @@ package Win32::Console;
 require Exporter;
 require DynaLoader;
 
-$VERSION = "0.09";
+$VERSION = "0.10";
 
 @ISA= qw( Exporter DynaLoader );
 @EXPORT = qw(
