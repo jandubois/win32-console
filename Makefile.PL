@@ -8,6 +8,7 @@ unless ($^O eq "MSWin32" || $^O eq "cygwin") {
 
 my %param = (
     NAME         => 'Win32::Console',
+    TEST_REQUIRES => { 'Test::More' => '0' },
     VERSION_FROM => 'Console.pm',
 );
 $param{NO_META} = 1 if eval "$ExtUtils::MakeMaker::VERSION" >= 6.10_03;
